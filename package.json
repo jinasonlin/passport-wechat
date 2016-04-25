@@ -1,0 +1,32 @@
+{
+  "name": "passport-wechat",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "description": "passport strategy for authenticating with wechat",
+  "bugs": "https://github.com/jinasonlin/passport-wechat/issues",
+  "author": {
+    "name": "Jim Lin"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jinasonlin/passport-wechat.git"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "passport",
+    "wechat",
+    "weixin"
+  ],
+  "dependencies": {
+    "debug": "latest",
+    "passport": "^0.3.0",
+    "passport-strategy": "^1.0.0",
+    "wechat-oauth": "^1.0.1"
+  }
+}
